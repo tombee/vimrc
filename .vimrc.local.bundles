@@ -1,0 +1,17 @@
+" theme/colours
+Plug 'w0ng/vim-hybrid'
+
+" Auto-wrapping and bracket completion
+Plug 'tpope/vim-surround'
+Plug 'jiangmiao/auto-pairs'
+
+" Provides case sensitive/intelligent matching
+Plug 'tpope/vim-abolish'
+
+" Use project specific editorconfig settings
+Plug 'editorconfig/editorconfig-vim'
+
+" Go
+Plug 'AndrewRadev/splitjoin.vim'
+
+call remove(g:plugs, 'delimitMate')

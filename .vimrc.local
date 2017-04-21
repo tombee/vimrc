@@ -1,0 +1,21 @@
+" Theme
+let g:airline_theme = "hybrid"
+let g:airline_powerline_fonts = 1
+let g:hybrid_custom_term_colors = 1
+let g:hybrid_reduced_contrast = 1
+colorscheme hybrid
+
+autocmd FileType javascript set formatprg=prettier\ --stdin
+" autocmd BufWritePre *.js exe "normal! gggqG\<C-o>\<C-o>"
+
+" Custom keyboard config
+let mapleader = "\<Space>"
+ino jj <esc>
+cno jj <c-c>
+vno v <esc>
+noremap ; l
+noremap l k
+noremap k j
+noremap j h
+" nnoremap ; :
+nnoremap Q @q
