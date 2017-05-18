@@ -5,6 +5,8 @@ let g:hybrid_custom_term_colors = 1
 let g:hybrid_reduced_contrast = 1
 colorscheme hybrid
 
+let $FZF_DEFAULT_COMMAND = 'ag -g ""'
+
 autocmd FileType javascript set formatprg=prettier\ --stdin
 " autocmd BufWritePre *.js exe "normal! gggqG\<C-o>\<C-o>"
 
