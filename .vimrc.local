@@ -7,10 +7,9 @@ colorscheme hybrid
 
 let $FZF_DEFAULT_COMMAND = 'ag -g ""'
 
-autocmd FileType javascript setlocal formatprg=prettier\ --stdin\ --parser\ flow\ --single-quote\ --trailing-comma
- let g:neoformat_try_formatprg = 1
-
 autocmd BufWritePre *.js Neoformat
+autocmd FileType javascript setlocal formatprg=prettier\ --stdin\ --parser\ flow\ --single-quote\ --trailing-comma\ es5
+let g:neoformat_try_formatprg = 1
 
 " Custom keyboard config
 let mapleader = "\<Space>"
