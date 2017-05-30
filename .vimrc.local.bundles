@@ -1,5 +1,6 @@
 " theme/colours
 Plug 'w0ng/vim-hybrid'
+Plug 'altercation/vim-colors-solarized'
 
 " Auto-wrapping and bracket completion
 Plug 'tpope/vim-surround'
