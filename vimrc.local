@@ -2,7 +2,7 @@
 let g:airline_powerline_fonts = 1
 syntax enable
 set background=dark
-colorscheme solarized
+colorscheme hybrid
 
 let $FZF_DEFAULT_COMMAND = 'ag -g ""'
 
@@ -24,9 +24,4 @@ let mapleader = "\<Space>"
 ino jj <esc>
 cno jj <c-c>
 vno v <esc>
-noremap ; l
-noremap l k
-noremap k j
-noremap j h
-" nnoremap ; :
 nnoremap Q @q
