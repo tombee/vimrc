@@ -13,9 +13,13 @@ Plug 'tpope/vim-abolish'
 Plug 'editorconfig/editorconfig-vim'
 
 " Go
+Plug 'fatih/vim-go'
 Plug 'AndrewRadev/splitjoin.vim'
 
 " js
 Plug 'sbdchd/neoformat'
+
+" tmux
+Plug 'christoomey/vim-tmux-navigator'
 
 call remove(g:plugs, 'delimitMate')

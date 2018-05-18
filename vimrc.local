@@ -19,8 +19,16 @@ let g:syntastic_check_on_wq = 1
 nnoremap <c-n> :lnext<CR>
 nnoremap <c-p> :lprev<CR>
 
-" Custom keyboard config
-let mapleader = "\<Space>"
+" Open new split panes to right and bottom, which feels more natural
+set splitbelow
+set splitright
+
+" Quicker window movement
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-h> <C-w>h
+nnoremap <C-l> <C-w>l
+
 ino jj <esc>
 cno jj <c-c>
 vno v <esc>
