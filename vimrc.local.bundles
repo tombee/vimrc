@@ -12,6 +12,9 @@ Plug 'tpope/vim-abolish'
 " Use project specific editorconfig settings
 Plug 'editorconfig/editorconfig-vim'
 
+" linting
+Plug 'w0rp/ale'
+
 " Go
 Plug 'fatih/vim-go'
 Plug 'AndrewRadev/splitjoin.vim'
